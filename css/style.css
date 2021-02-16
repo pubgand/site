@@ -1,0 +1,93 @@
+p{
+	font-size: 30px;
+}
+
+
+a{
+	font-size: 40px;
+}
+
+span {
+  font-size: 30px;
+}
+  
+
+div {
+  text-align: justify;
+  border: 20px solid grey;
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.box {
+  text-align: justify;
+  border: 20px solid grey;
+  margin: 20px;
+  padding: 20px;
+  text-align: justify;
+  display: inline-block;
+  
+}
+
+table{
+	border: 10px solid grey;
+	font-size: 20px;
+	width: 1600px;
+}
+
+th{
+	font-size: 30px;
+	border: 5px solid grey;
+}
+
+td{
+	font-size: 30px;
+	border: 5px solid grey;
+}
+
+
+a:hover {
+    background:grey; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+   } 
+
+
+   i{
+	color: black;
+	transition: all 1.3s ease-in-out;
+   }
+
+i:hover{
+	color:olive;
+    font-size: 1.3em;
+    transform: rotate(1080deg); 
+   }
+
+input:focus { 
+  background: red; /* Колір фону */ 
+  border: 1px solid orange; /* Параметри рамки */ 
+}
+
+.block-animation {
+margin: 20px;
+width: 600px;
+padding: 20px;
+text-align: center;
+background-color: #2196F3;
+color: white;
+border-radius: 10px;
+font-size: 30px;
+transition: 1s linear;
+}
+
+.block-animation:hover {
+background-color: lightgreen;
+color: black;
+border-radius: 50px;
+}
+
+hr {
+  border: 5px solid grey;
+}
+
